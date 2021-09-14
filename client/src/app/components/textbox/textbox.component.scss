@@ -1,0 +1,41 @@
+.textBox{
+    font: 20px Georgia;
+    z-index: 20;
+    background:  transparent;  
+    border: 0 none;
+    overflow: hidden;
+    outline: none;
+    resize: none;
+    overflow-x: hidden;
+    width: 1px;
+    height: 50px;
+    line-height: 120%;
+}
+
+.text-box {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.bottom-mask {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: rgb(151, 151, 151);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.right-mask {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: rgb(151, 151, 151);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+}
